@@ -8,32 +8,32 @@ const HowItWorksSection = () => (
       </h2>
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         <StepCard
-          number="1"
+          number={1}
           title="Share Your Child's World"
           description="Tell us about your child's day, their friends, and favorite things."
         />
         <StepCard
-          number="2"
+          number={2}
           title="Customize Your Story"
           description="Choose themes, add characters, and select key story elements."
         />
         <StepCard
-          number="3"
+          number={3}
           title="AI Magic Happens"
           description="Our AI crafts a unique story and generates custom illustrations."
         />
         <StepCard
-          number="4"
+          number={4}
           title="Review and Refine"
           description="Preview your story and make any desired adjustments."
         />
         <StepCard
-          number="5"
+          number={5}
           title="Bring the Story to Life"
           description="Receive your beautifully crafted, personalized storybook."
         />
         <StepCard
-          number="6"
+          number={6}
           title="Share the Joy"
           description="Read the story with your child or gift it to loved ones."
         />

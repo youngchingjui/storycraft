@@ -1,4 +1,4 @@
-const StepCard = ({ number, title, description }) => (
+const StepCard = ({ number, title, description }: { number: number, title: string, description: string }) => (
   <div className="flex flex-col items-center space-y-2 p-6 bg-white rounded-lg shadow-lg">
     <div className="w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-lg mb-2">
       {number}
