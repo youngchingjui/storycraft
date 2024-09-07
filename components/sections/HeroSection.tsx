@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import Link from "next/link"
+import PaymentLink from "@/components/PaymentLink"
 import MagicalBook from "./MagicalBook"
 
 const HeroSection = () => (
@@ -18,11 +18,11 @@ const HeroSection = () => (
             </p>
           </div>
           <div className="space-y-4">
-            <Link href="https://buy.stripe.com/test_aEUg2m7OXbiq4Uw000" passHref>
+            <PaymentLink>
               <Button className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
                 Create Your Personalized Story - $200
               </Button>
-            </Link>
+            </PaymentLink>
             <p className="text-sm text-gray-600">Bring your child&apos;s world to life in a custom storybook!</p>
           </div>
         </div>

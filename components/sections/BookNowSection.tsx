@@ -1,4 +1,4 @@
-import Link from "next/link";
+import PaymentLink from "@/components/PaymentLink";
 import { Button } from "../ui/button";
 import { Wand2 } from "lucide-react";
 
@@ -12,12 +12,12 @@ const BookNowSection = () => (
           <p className="text-xl text-gray-700 text-center max-w-[700px]">
             Create a one-of-a-kind storybook that captures your child's world and imagination. The perfect bedtime story or gift awaits!
           </p>
-          <Link href="https://buy.stripe.com/test_aEUg2m7OXbiq4Uw000" passHref>
+          <PaymentLink>
             <Button size="lg" className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-8 rounded-full text-xl transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
               <Wand2 className="w-6 h-6 mr-2" />
               Create Your Personalized Story - $200
             </Button>
-          </Link>
+          </PaymentLink>
           <p className="text-sm text-gray-600">Secure payment powered by Stripe</p>
         </div>
       </div>
