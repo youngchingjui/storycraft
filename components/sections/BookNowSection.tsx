@@ -15,7 +15,7 @@ const BookNowSection = () => (
           <PaymentLink>
             <Button size="lg" className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-8 rounded-full text-xl transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
               <Wand2 className="w-6 h-6 mr-2" />
-              Create Your Personalized Story - $200
+              Create Your Personalized Story - $500
             </Button>
           </PaymentLink>
           <p className="text-sm text-gray-600">Secure payment powered by Stripe</p>
