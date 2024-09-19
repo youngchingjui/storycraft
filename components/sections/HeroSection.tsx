@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import PaymentLink from "@/components/PaymentLink"
-import MagicalBook from "./MagicalBook"
+import { AnimatedBook } from "../animated-book"
 
 const HeroSection = () => (
   <section className="relative w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 overflow-hidden">
@@ -27,7 +27,7 @@ const HeroSection = () => (
           </div>
         </div>
         <div className="relative w-full h-64 md:h-full">
-          <MagicalBook />
+          <AnimatedBook />
         </div>
       </div>
     </div>

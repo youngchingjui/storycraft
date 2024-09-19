@@ -1,3 +1,5 @@
 Use latest version of Next.js, especially the app router.
 Try to use React Server Components where possible.
 Use shadcn components where possible.
+Use Tailwind CSS for styling.
+Use Framer Motion for animations.
