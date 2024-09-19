@@ -19,8 +19,8 @@ const HowItWorksSection = () => (
         />
         <StepCard
           number={3}
-          title="AI Magic Happens"
-          description="Our AI crafts a unique story and generates custom illustrations."
+          title="Crafting the Story"
+          description="We create a unique story and generate custom illustrations."
         />
         <StepCard
           number={4}

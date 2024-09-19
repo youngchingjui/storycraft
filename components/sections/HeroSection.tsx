@@ -14,7 +14,7 @@ const HeroSection = () => (
               Create Magical, Personalized Stories for Your Child
             </h1>
             <p className="mx-auto md:mx-0 max-w-[700px] text-gray-700 md:text-xl">
-              Turn your child&apos;s day into an enchanting tale with AI-powered storytelling. Customize characters, add real-life experiences, and create unforgettable memories.
+              Turn your child&apos;s day into an enchanting tale with customized storytelling. Personalize characters, add real-life experiences, and create unforgettable memories.
             </p>
           </div>
           <div className="space-y-4">

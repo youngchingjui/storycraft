@@ -21,7 +21,7 @@ const FeaturesSection = () => (
         <FeatureCard
           icon={<Camera className="h-12 w-12 mb-2 text-pink-500" />}
           title="Stylized Images"
-          description="Add AI-generated illustrations featuring your child and their world."
+          description="Add illustrations featuring your child and their world."
         />
         <FeatureCard
           icon={<Sparkles className="h-12 w-12 mb-2 text-purple-500" />}
