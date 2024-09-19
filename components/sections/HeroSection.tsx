@@ -20,7 +20,7 @@ const HeroSection = () => (
           <div className="space-y-4">
             <PaymentLink>
               <Button className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
-                Create Your Personalized Story - $200
+                Create Your Personalized Story - $500
               </Button>
             </PaymentLink>
             <p className="text-sm text-gray-600">Bring your child&apos;s world to life in a custom storybook!</p>
