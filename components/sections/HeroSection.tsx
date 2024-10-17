@@ -11,7 +11,7 @@ const HeroSection = () => (
         <div className="flex flex-col items-center md:items-start space-y-4 text-center md:text-left">
           <div className="space-y-2">
             <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-pink-500">
-              Create Magical, Personalized Stories for Your Child
+              Your Personalized Storybook
             </h1>
             <p className="mx-auto md:mx-0 max-w-[700px] text-gray-700 md:text-xl">
               Turn your child&apos;s day into an enchanting tale with customized storytelling. Personalize characters, add real-life experiences, and create unforgettable memories.
